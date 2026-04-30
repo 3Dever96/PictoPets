@@ -1,6 +1,8 @@
-# Title
+# Picto Pets
 
 ## Description
+
+Picto pets is a video game that combines elements from multiple games and genres.  It draws from Pokemon's creature collection and one on one battles, MegaMan Battle Network's deck building system, and Kingdom Heats' action battle system.  The general concept is that the player has complete control over their character while the pet follows them around the overworld.  The player can use cards to tell the pet to perform different actions, such as performing physical or elemental attacks.  Both the player and pet can take damage, but a game over is only recieved if the player personally is defeated.
 
 ## Getting Started
 
@@ -9,21 +11,21 @@ These instructions will get you a copy of the project up and running on your loc
 ### Requirements
 
 **Unity Hub**
-**Unity Editor Version:** '6000.3.6f1' (or minimum recommended patch version)
+**Unity Editor Version:** '6000.4.0f1' (or minimum recommended patch version)
 **Target Platform:** 'Windows' (Requires the Windows Build Support module installed via Unity Hub)
 
 ### Installation
 
 1. **Clone the repository:** 
 '''bash
-git clone https://github.com/3Dever96/[ProjectName].git
+git clone https://github.com/3Dever96/PictoPets.git
 '''
 
 2. **Open in Unity**
 * Open **Unity Hub**.
 * Click **"Add Project from Disk"**.
 * Navigate to the cloned directory and select the root folder.
-* Ensure the correct Unity Editor Version ('6000.3.6f1') is selected in the Hub and open the project.
+* Ensure the correct Unity Editor Version ('6000.4.0f1') is selected in the Hub and open the project.
 
 3. **Run the Project:**
 * Once the Editor loads, navigate to the primary scene file (usually in 'Assets/Scenes/').
