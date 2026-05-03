@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce6577713e6a004281eb4966aa5253b, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: Assembly-CSharp::Database
+  Stats:
+  - {fileID: 11400000, guid: db5fdb1b09d26184c850634f6256099c, type: 2}
+  - {fileID: 11400000, guid: 484c84a2f2922ae41a48e3e2d0f643dd, type: 2}
+  - {fileID: 11400000, guid: 3a069c564f4c85d4e945f4db8bea9d38, type: 2}
+  - {fileID: 11400000, guid: aeeffafa3fa8ea646a22e249ec42bf6a, type: 2}
+  - {fileID: 11400000, guid: e3771f52e0768cf46a9df2c7bcbd7419, type: 2}
+  - {fileID: 11400000, guid: 8967d6dba0591b943884fa5d633559d5, type: 2}
+  - {fileID: 11400000, guid: d25614bf290f24243912a1bb0d0b0dc7, type: 2}
+  - {fileID: 11400000, guid: cb29a42222b10924ca17bf29df9d7e5b, type: 2}
+  - {fileID: 11400000, guid: 1e086929c973dec4eaaca0d37c64a566, type: 2}
+  - {fileID: 11400000, guid: 1ab49854af01c8644b9be823a707dec7, type: 2}
+  - {fileID: 11400000, guid: 0c574a4a0b0c8cc43b850a5af8f85ea2, type: 2}
+  - {fileID: 11400000, guid: c372c6f623356fa4b8da9df4f3ccda7a, type: 2}
+  Types:
+  - {fileID: 11400000, guid: 2607427325b4b4947bd60b21518572a1, type: 2}
+  - {fileID: 11400000, guid: 5f9a96abf977db4479144e7891cca237, type: 2}
+  - {fileID: 11400000, guid: 41dfdc1493e79ff41a59dea0aaaf3170, type: 2}
+  - {fileID: 11400000, guid: 3b1ae90dded34754a9a7f5483a99600d, type: 2}
+  - {fileID: 11400000, guid: 208dbbbebfcb1eb458d22624a02b6b22, type: 2}
+  - {fileID: 11400000, guid: 9a24f5f27398671428ab7ab3258eb17f, type: 2}
+  - {fileID: 11400000, guid: 8782fce24cf7e3949a9f3e28abd504c6, type: 2}
+  - {fileID: 11400000, guid: a90b06f9b9a41c642bbc893fb5dbd1bd, type: 2}
+  - {fileID: 11400000, guid: 5713d68a3157ff949a7b23a1010274d5, type: 2}
+  - {fileID: 11400000, guid: bc47860e93dbca340a3e52bad83ae963, type: 2}
+  - {fileID: 11400000, guid: 5835221d48942b54892c3119836e9aa6, type: 2}
+  - {fileID: 11400000, guid: 3cb39e2bfebe6204cb4b80a99a354f18, type: 2}
+  PhyscialTraits:
+  - {fileID: 11400000, guid: 8b54ed74b9cdf164c9376a286b2b8e85, type: 2}
+  - {fileID: 11400000, guid: f89f4fbece7afc442a1b20475fa6c559, type: 2}
+  - {fileID: 11400000, guid: e454b0dbb0b7caa4584a53c462b55361, type: 2}
+  - {fileID: 11400000, guid: c842f5f36ba119747a1bd01857bbd68f, type: 2}
+  - {fileID: 11400000, guid: 578cb923a8584444e9ac0f04e8becb07, type: 2}
+  - {fileID: 11400000, guid: ab4574758b88cd0478e7efd3964abbd5, type: 2}
+  - {fileID: 11400000, guid: cd78a7a1dd9060a4fb87e9df797f1da5, type: 2}
+  - {fileID: 11400000, guid: 24f4e68dc86d83c4c9667ec9c838dc53, type: 2}
+  - {fileID: 11400000, guid: eb532a9fc22e23d4a967a5cacf935e51, type: 2}
+  - {fileID: 11400000, guid: 837f21764fb7e164b8409edcd8b9d3da, type: 2}
+  - {fileID: 11400000, guid: 8b07e0e6660ac934b9f7b983fe3a472e, type: 2}
+  - {fileID: 11400000, guid: 4be2f5c98795c6b4a97be14d0298e74a, type: 2}
+  PhotomorphData:
+  - {fileID: 11400000, guid: 5bb9b6c5522cf7f4189daf15bc6d0e76, type: 2}

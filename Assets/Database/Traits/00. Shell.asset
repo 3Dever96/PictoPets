@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c396579503a9e0542b3b0380e30374e9, type: 3}
+  m_Name: 00. Shell
+  m_EditorClassIdentifier: Assembly-CSharp::Traits
+  traitName: Shell
+  ringPosition: 0
+  weaknessRates:
+  - 0
+  - 0.75
+  - 0.5
+  - 0.45
+  - 0.4
+  - 0.35
+  - 0.3
+  - 0.25
+  - 0.2
+  - 0.15
+  - 0.125
+  - 0.1
