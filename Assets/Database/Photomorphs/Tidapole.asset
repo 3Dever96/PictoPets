@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27dbc5592f8cf9c4cb0cbe647ce0791f, type: 3}
   m_Name: Tidapole
   m_EditorClassIdentifier: Assembly-CSharp::PhotomorphData
-  photomorphName: Geodle
-  index: 002
-  elementType: 0
-  physicalTrait: 0
+  photomorphName: Tidapole
+  index: 2
+  elementType: 4
+  physicalTrait: 2

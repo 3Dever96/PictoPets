@@ -36,7 +36,7 @@ public class PhotomorphData : ScriptableObject
     }
 
     public string photomorphName;
-    public string index;
+    public int index;
     public Type elementType;
     public Trait physicalTrait;
 }
