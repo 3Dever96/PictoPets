@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PhotomorphData
   photomorphName: Geodle
   index: 1
+  weight: 3
   elementType: 0
   physicalTrait: 0

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PhotomorphData
   photomorphName: Tidapole
   index: 2
+  weight: 4
   elementType: 4
   physicalTrait: 2

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Serializable]
 public class PhotomorphEntity
 {
     public PhotomorphData data;
@@ -44,18 +45,18 @@ public class PhotomorphEntity
         float baseAtk = database.Stats[10].GetValue((int)data.elementType) + database.Stats[10].GetValue((int)data.physicalTrait);
         float baseHp = database.Stats[11].GetValue((int)data.elementType) + database.Stats[11].GetValue((int)data.physicalTrait);
 
-        maxHp = CalculateStat(baseHp, level);
-        maxMp = CalculateStat(baseMp, level);
-        maxSp = CalculateStat(baseSp, level);
-        atk = CalculateStat(baseAtk, level);
-        def = CalculateStat(baseDef, level);
-        mAtk = CalculateStat(baseMAtk, level);
-        mDef = CalculateStat(baseMDef, level);
-        agi = CalculateStat(baseAgi, level);
-        luk = CalculateStat(baseLuk, level);
-        ins = CalculateStat(baseIns, level);
-        res = CalculateStat(baseRes, level);
-        loy = CalculateStat(baseLoy, level);
+        maxHp = Mathf.FloorToInt(CalculateStat(baseHp, level));
+        maxMp = Mathf.FloorToInt(CalculateStat(baseMp, level));
+        maxSp = Mathf.FloorToInt(CalculateStat(baseSp, level));
+        atk = Mathf.FloorToInt(CalculateStat(baseAtk, level));
+        def = Mathf.FloorToInt(CalculateStat(baseDef, level));
+        mAtk = Mathf.FloorToInt(CalculateStat(baseMAtk, level));
+        mDef = Mathf.FloorToInt(CalculateStat(baseMDef, level));
+        agi = Mathf.FloorToInt(CalculateStat(baseAgi, level));
+        luk = Mathf.FloorToInt(CalculateStat(baseLuk, level));
+        ins = Mathf.FloorToInt(CalculateStat(baseIns, level));
+        res = Mathf.FloorToInt(CalculateStat(baseRes, level));
+        loy = Mathf.FloorToInt(CalculateStat(baseLoy, level));
 
         currentHp = maxHp;
         currentMp = maxMp;

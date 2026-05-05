@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PhotomorphData
   photomorphName: Flaris
   index: 0
+  weight: 5
   elementType: 9
   physicalTrait: 6
