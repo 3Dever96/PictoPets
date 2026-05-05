@@ -318,6 +318,17 @@
                 },
                 {
                     "name": "",
+                    "id": "bd823d62-89ae-4052-92d3-05ea288b24f0",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "b378334e-e0dc-4b50-911d-689ab31653f2",
                     "path": "<Mouse>/middleButton",
                     "interactions": "",

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3651624729693797326}
   - component: {fileID: 3895931364892070085}
   - component: {fileID: 390949752169764829}
+  - component: {fileID: 5423509120315240819}
   m_Layer: 0
   m_Name: WildPhotomorph
   m_TagString: Untagged
@@ -68,6 +69,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c561ad5e3aaf1a4ba83075bddd0e046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WildPhotomorphController
+  chaseDistance: 5
+  roamState:
+    moveSpeed: 3
+    roamRadius: 15
+    roamTime: 2
+--- !u!143 &5423509120315240819
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6758555083048876505}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2.5
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.0001
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1.25, z: 0}
 --- !u!1001 &501033158158315938
 PrefabInstance:
   m_ObjectHideFlags: 0
